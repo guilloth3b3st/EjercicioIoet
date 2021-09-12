@@ -1,4 +1,4 @@
-###Overview of the solution
+### Overview of the solution
 
 ```python
 # Author: Guillermo Castillo
@@ -62,14 +62,14 @@ for linea in f:
 f.close()
 input("Press enter to close the program")
 ```
-###Arquitecture
+### Arquitecture
 In the code, a function was made to calculate the payment for a given work schedule. Then the .txt file is opened for reading, and it is determined data by data the day that was worked to then call the function created and obtain the respective total payment per hour. And in case a day is misspelled, the program stops and informs which employee has the error. In addition, an "input" was put at the end of the code with the only purpose of keeping the window of the .exe file open until the user wants it.
-###Approach and Methodology
+### Approach and Methodology
 Employees'pay was required to be calculated according to their number of hours worked, which in turn depended on the day on which they worked. The information was in a .txt file, and therefore a program was made in Python programming language, which was converted to an executable file so that anyone can use the program, without needing any IDE. 
-###How to run the program locally
-#####For windows:
+### How to run the program locally
+##### For windows:
 -Download "dist" folder
 -Execute the .exe file
 -You can also edit the .txt file to make different tests
-#####For other OS:
+##### For other OS:
 -Please copy the given code to your preferred IDE
